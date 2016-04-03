@@ -1,0 +1,172 @@
+/*box-shadow的兼容性写法*/
+body,ul,li,a,footer,header{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "Microsoft YaHei","微软雅黑";
+	background-color: #ccc;
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+}
+p{
+	text-indent: 2em;
+}
+
+/**/
+article,section,aside{
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+	background-color: white;
+	border:2px solid #ccc;
+	box-shadow: 2px 2px  #999;
+	-webkit-box-shadow:2px 2px #999;
+	-moz-box-shadow:2px 2px #999;
+}
+.author,time,h3{
+	color: #999999;
+}
+figure{
+	border: 1px solid #999;
+	padding: 15px;
+	width: 130px;
+}
+figure figcaption{
+	text-align: center;
+	padding-bottom: 10px;
+}
+figure img{
+	width: 130px;
+	height: 130px;
+}
+
+/**/
+header{
+	border: 1px solid black;
+	width: 100%;
+	height: 70px;
+	background-color:black;
+	overflow: hidden;
+}
+header h1{
+	float: left;
+	color: white;
+	line-height: 70px;
+	margin-top: 0;
+}
+header .nav{
+	overflow: hidden;
+	float: right;
+	line-height: 70px;
+}
+header .nav li{
+	float: left;
+	margin-right: 20px;
+}
+header .nav li a{
+	color: white;
+	display: block;
+	font-size: 0.8em;
+}
+header .nav li a.active{
+	color: #ccc;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+footer p{
+	text-align: center;
+	color: white;
+	line-height: 100px;
+}
+.article-last table{
+	border: 1px solid #ccc;
+	width: 100%;
+	border-collapse:collapse;
+}
+.article-last tbody td,.article-last thead th{
+	border: 1px solid #ccc;
+}
+.article-last thead th{
+	background-color: #332;
+	color: white;
+	text-align: left;
+}
+.article-last tfoot tr td{
+	background-color: #ccc;
+}
+aside h2{
+	border-left: 3px solid #ccc;
+	height: 55px;
+	line-height: 55px;
+	padding-left: 20px;
+}
+
+aside form{
+		margin-left: 18%;
+}
+form .col{
+		margin-bottom: 10px;
+}
+form label,.col .mylabel{
+		display: inline-block;
+		width: 140px;
+		padding-right: 10px;
+		text-align: right;
+		cursor: pointer;
+}
+form input[type="text"],input[type="password"]{
+	height: 23px;
+}
+form p.remind{
+	font-size: 12px;
+	color: #ccc;
+	margin-left: 140px;
+}
+form .myoption{
+	display: inline-block;
+}
+form textarea{
+	width: 200px;
+	height: 80px;
+	display: inline;
+	resize: none;
+}
+form label.special{
+	float: left;
+}
+#submit{
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 20px;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	cursor: pointer;
+}
+
+/**/
+
+aside{
+	width: 450px;
+	float: right;
+}
+.primary{
+	overflow: hidden;
+}
+.picsection{
+	overflow: hidden;
+}
+.picsection figure{
+	float: left;
+}
